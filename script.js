@@ -6,87 +6,117 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Na escola, quais são suas matérias favoritas?",
+        enunciado: "Qual é a sua habilidade mais forte?",
         alternativas: [
             {
-                texto: "Matemática e física.",
-                afirmacao: "Exatas. "
+                texto: "Compreender as emoções e os relacionamentos interpessoais",
+                afirmacao: "Você tem afinidade com áreas de humanas, como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             },
             {
-                texto: "Português, filosofia e sociologia.",
-                afirmacao: "Humanas."
+                texto: "Resolver problemas lógicos e matemáticos",
+                afirmacao: "Você tem afinidade com áreas de exatas, como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
-                texto: "Química e biologia.",
-                afirmacao: "Biológicas."
+                texto: "Observar e entender os processos biológicos e naturais",
+                afirmacao: "Você tem afinidade com áreas de biológicas, como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             }
         ]
     },
     {
-        enunciado: "Quando está de boa na lagoa em casa, o que mais gosta de fazer?",
+        enunciado: "Quando se trata de problemas, você costuma:",
         alternativas: [
             {
-                texto: "Gosto de me dedicar a atividades que, pelo fato de exigirem concentração e raciocínio rápido, são capazes de estimular meu cérebro. Não é à toa que tenho uma coleção de quebra-cabeças de mil peças!.",
+                texto: "Analisar diferentes perspectivas e considerar os aspectos emocionais",
                 afirmacao: "Exatas."
             },
             {
-                texto: " Um dos meus passatempos prediletos é ler. Leio absolutamente tudo o que encontro pela frente: de rótulo de shampoo Monange aos livros que narram as aventuras de Harry Potter.",
+                texto: "Usar a lógica e a dedução para chegar a uma solução precisa",
                 afirmacao: "Humanas."
             },
             {
-                texto: "Curto assistir a documentários que tratam, especialmente, de questões científicas. Se o Discovery Channel tem fãs, eu com certeza sou um deles…",
+                texto: "Observar os detalhes e entender as causas e efeitos dos elementos envolvidos",
                 afirmacao: "Biológicas."
             }
         ]
     },
     {
-        enunciado: "Com qual das personalidades abaixo você mais se identifica?",
+        enunciado: "O que você prefere fazer em seu tempo livre?",
         alternativas: [
             {
-                texto: "Com o carinha que, depois de ter a cabeça atingida por uma maçã, resolveu criar a teoria da gravidade, Isaac Newton.",
+                texto: "Ler livros, assistir filmes e discutir ideias com outras pessoas",
                 afirmacao: "Exatas."
             },
             {
-                texto: "Com a mulher que deu vida ao bruxinho mais famoso da história e que deixou todo mundo morrendo de vontade de conhecer Hogwarts, J.K. Rowling.",
+                texto: "Resolver quebra-cabeças, jogos de estratégia ou matemáticos",
                 afirmacao: "Humanas."
             },
             {
-                texto: "Com o cientista que provavelmente nunca chorou no banho, Dexter, protagonista do desenho animado O Laboratório de Dexter.",
+                texto: "Explorar a natureza, observar animais e entender o funcionamento dos seres vivos",
                 afirmacao: "Biológicas."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Como você se sente em relação a números?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Eles não são a minha praia, prefiro lidar com palavras e conceitos",
                 afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Gosto de trabalhar com números e desafios matemáticos",
                 afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Aprecio a utilidade dos números, mas eles não são minha paixão principal",
                 afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "O que você considera mais fascinante?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "A mente humana, a sociedade e a cultura",
+                afirmacao: "Exatas."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "As leis da física, a lógica e os padrões matemáticos",
+                afirmacao: "Humanas."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "A diversidade da vida, os sistemas biológicos e a ecologia",
+                afirmacao: "Biológicas."
+            }
+        ]
+    },
+    {
+        enunciado: "Você é:",
+        alternativas: [
+            {
+                texto: "Introvertido",
+                afirmacao: "Exatas."
+            },
+            {
+                texto: "Extrovertido",
+                afirmacao: "Humanas."
+            }
+        ]
+    },
+    {
+        enunciado: "O que você acha mais interessante em um debate ou discussão?",
+        alternativas: [
+            {
+                texto: "As diferentes opiniões e pontos de vista das pessoas",
+                afirmacao: "Exatas."
+            },
+            {
+                texto: "Os argumentos lógicos e racionais apresentados",
+                afirmacao: "Humanas."
+            },
+            {
+                texto: "Os fatos científicos e as evidências empíricas apresentadas",
+                afirmacao: "Biológicas."
             }
         ]
     },
