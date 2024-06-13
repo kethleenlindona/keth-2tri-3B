@@ -10,15 +10,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Compreender as emoções e os relacionamentos interpessoais",
-                afirmacao: "Você tem afinidade com áreas de humanas, como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
+                afirmacao: "Humanas. Você tem afinidade com áreas como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             },
             {
                 texto: "Resolver problemas lógicos e matemáticos",
-                afirmacao: "Você tem afinidade com áreas de exatas, como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
+                afirmacao: "Exatas. Você tem afinidade com áreas como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
                 texto: "Observar e entender os processos biológicos e naturais",
-                afirmacao: "Você tem afinidade com áreas de biológicas, como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
+                afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             }
         ]
     },
@@ -27,15 +27,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Analisar diferentes perspectivas e considerar os aspectos emocionais",
-                afirmacao: "Exatas."
+                afirmacao: "Humanas. Você tem afinidade com áreas como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             },
             {
                 texto: "Usar a lógica e a dedução para chegar a uma solução precisa",
-                afirmacao: "Humanas."
+                afirmacao: "Exatas. Você tem afinidade com áreas como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
                 texto: "Observar os detalhes e entender as causas e efeitos dos elementos envolvidos",
-                afirmacao: "Biológicas."
+                afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             }
         ]
     },
@@ -44,15 +44,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Ler livros, assistir filmes e discutir ideias com outras pessoas",
-                afirmacao: "Exatas."
+                afirmacao: "Humanas. Você tem afinidade com áreas como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             },
             {
                 texto: "Resolver quebra-cabeças, jogos de estratégia ou matemáticos",
-                afirmacao: "Humanas."
+                afirmacao: "Exatas. Você tem afinidade com áreas de exatas, como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
                 texto: "Explorar a natureza, observar animais e entender o funcionamento dos seres vivos",
-                afirmacao: "Biológicas."
+                afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             }
         ]
     },
@@ -61,15 +61,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Eles não são a minha praia, prefiro lidar com palavras e conceitos",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "Humanas. Você tem afinidade com áreas como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             },
             {
                 texto: "Gosto de trabalhar com números e desafios matemáticos",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "Exatas. Você tem afinidade com áreas como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
                 texto: "Aprecio a utilidade dos números, mas eles não são minha paixão principal",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             }
         ]
     },
@@ -78,15 +78,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A mente humana, a sociedade e a cultura",
-                afirmacao: "Exatas."
+                afirmacao: "Humanas. Você tem afinidade com áreas como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             },
             {
                 texto: "As leis da física, a lógica e os padrões matemáticos",
-                afirmacao: "Humanas."
+                afirmacao: "Exatas. Você tem afinidade com áreas como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
                 texto: "A diversidade da vida, os sistemas biológicos e a ecologia",
-                afirmacao: "Biológicas."
+                afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             }
         ]
     },
@@ -95,11 +95,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Introvertido",
-                afirmacao: "Exatas."
+                afirmacao: "Exatas. Você tem afinidade com áreas como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
+            },
+            {
+                texto: "Ambivertidos",
+                afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             },
             {
                 texto: "Extrovertido",
-                afirmacao: "Humanas."
+                afirmacao: "Humanas. Você tem afinidade com áreas como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             }
         ]
     },
@@ -108,15 +112,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "As diferentes opiniões e pontos de vista das pessoas",
-                afirmacao: "Exatas."
+                afirmacao: "Humanas. Você tem afinidade com áreas como psicologia, sociologia, filosofia ou letras. Você se destaca em compreender a mente humana, as relações interpessoais e a cultura."
             },
             {
                 texto: "Os argumentos lógicos e racionais apresentados",
-                afirmacao: "Humanas."
+                afirmacao: "Exatas. Você tem afinidade com áreas como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
                 texto: "Os fatos científicos e as evidências empíricas apresentadas",
-                afirmacao: "Biológicas."
+                afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             }
         ]
     },
@@ -147,17 +151,26 @@ function mostraAlternativas(){
     }
 }
 
+mostraPergunta();
+
+let contagemAfirmacoes = {}; // Objeto para armazenar a contagem de cada afirmação
+
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacoes + " ";
+    const afirmacaoSelecionada = opcaoSelecionada.afirmacao;
+    if (contagemAfirmacoes.hasOwnProperty(afirmacaoSelecionada)) {
+        contagemAfirmacoes[afirmacaoSelecionada]++;
+    } else {
+        contagemAfirmacoes[afirmacaoSelecionada] = 1;
+    }
+    
+    historiaFinal += afirmacaoSelecionada + " ";
     atual++;
     mostraPergunta();
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
+    caixaPerguntas.textContent = "Sua área é...";
+    const afimMaisEscolhida = Object.keys(contagemAfirmacoes).reduce((a, b) => contagemAfirmacoes[a] > contagemAfirmacoes[b] ? a : b);
+    textoResultado.textContent = afimMaisEscolhida;
     caixaAlternativas.textContent = "";
 }
-
-mostraPergunta();
