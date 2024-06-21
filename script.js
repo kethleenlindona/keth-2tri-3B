@@ -98,7 +98,7 @@ const perguntas = [
                 afirmacao: "Exatas. Você tem afinidade com áreas como matemática, física, engenharia ou programação. Você se destaca em resolver problemas lógicos, trabalhar com números e aplicar a análise crítica."
             },
             {
-                texto: "Ambivertidos",
+                texto: "Ambivertido",
                 afirmacao: "Biológicas. Você tem afinidade com áreas como biologia, medicina, ecologia ou veterinária. Você se destaca em observar e compreender os processos biológicos, a diversidade da vida e os sistemas naturais."
             },
             {
